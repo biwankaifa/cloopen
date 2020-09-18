@@ -1,0 +1,30 @@
+{
+    "name": "biwankaifa/cloopen",
+    "description": "容联云，容联短信",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "彼玩网络",
+            "email": "1115000280@qq.com"
+        },
+        {
+            "name": "jinyicheng",
+            "email": "234067496@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "ext-redis": "*",
+        "biwankaifa/redis": "^0.4",
+        "biwankaifa/toolbox": "^0.1",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-fileinfo": "*",
+        "ext-openssl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "biwankaifa\\cloopen\\": "src/"
+        }
+    }
+}
